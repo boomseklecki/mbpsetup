@@ -117,11 +117,11 @@ brew install --cask dropbox
 brew install --cask spotify
 
 #Additional Browsers
-# brew install --cask brave
-# brew install --cask firefox
-# brew install --cask homebrew/cask-versions/firefox-nightly
-# brew install --cask google-chrome
-# brew install --cask homebrew/cask-versions/google-chrome-canary
+#brew install --cask brave
+#brew install --cask firefox
+#brew install --cask homebrew/cask-versions/firefox-nightly
+#brew install --cask google-chrome
+#brew install --cask homebrew/cask-versions/google-chrome-canary
 
 # Remove outdated versions from the cellar.
 brew cleanup
