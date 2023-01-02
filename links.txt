@@ -1,13 +1,10 @@
 MacBook Pro
 
-MacBook Pro setup Reddit - Google Search
-https://www.google.com/search?q=MacBook+Pro+setup+Reddit&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari
-
 boomseklecki/mbpsetup: Setup and installation files for 2021 M1 Max MacBook Pro
 https://github.com/boomseklecki/mbpsetup
 
-m1 mac setup development best practices - Google Search
-https://www.google.com/search?q=m1+mac+setup+development+best+practices&client=safari&hl=en-us&ei=HSJpY7fzPJ6giLMP1JCQuAw&ved=0ahUKEwj39dimr5z7AhUeEGIAHVQIBMcQ4dUDCA8&uact=5&oq=m1+mac+setup+development+best+practices&gs_lp=ugYGCAEQARgJEgxnd3Mtd2l6LXNlcnC4AQP4AQEyCBAhGMMEGKABwgIKEAAYRxjWBBiwA8ICDhAAGOQCGNYEGLAD2AEBwgIFEAAYogTCAgcQABgeGKIEkAYNSMVkULogWO1YcAN4AMgBAJABAJgBWKABowOqAQE24gMEIE0YAeIDBCBBGADiAwQgRhgBiAYB&sclient=gws-wiz-serp
+MacBook Pro setup Reddit - Google Search
+https://www.google.com/search?q=MacBook+Pro+setup+Reddit&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari
 
 How do you configure your mac? : macapps
 https://www.reddit.com/r/macapps/comments/vgos3l/how_do_you_configure_your_mac/
@@ -17,6 +14,9 @@ https://www.reddit.com/r/macapps/comments/u5xktn/mac_apps_that_you_have_been_usi
 
 What are the must-have apps for Mac in 2022? : macapps
 https://www.reddit.com/r/macapps/comments/uvmg98/what_are_the_musthave_apps_for_mac_in_2022/
+
+m1 mac setup development best practices - Google Search
+https://www.google.com/search?q=m1+mac+setup+development+best+practices&client=safari&hl=en-us&ei=HSJpY7fzPJ6giLMP1JCQuAw&ved=0ahUKEwj39dimr5z7AhUeEGIAHVQIBMcQ4dUDCA8&uact=5&oq=m1+mac+setup+development+best+practices&gs_lp=ugYGCAEQARgJEgxnd3Mtd2l6LXNlcnC4AQP4AQEyCBAhGMMEGKABwgIKEAAYRxjWBBiwA8ICDhAAGOQCGNYEGLAD2AEBwgIFEAAYogTCAgcQABgeGKIEkAYNSMVkULogWO1YcAN4AMgBAJABAJgBWKABowOqAQE24gMEIE0YAeIDBCBBGADiAwQgRhgBiAYB&sclient=gws-wiz-serp
 
 Introduction · macOS Setup Guide
 https://sourabhbajaj.com/mac-setup/
