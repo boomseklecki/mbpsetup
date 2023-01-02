@@ -46,11 +46,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Git
 brew install git
-git config --global user.email "seklecki.m@gmail.com"
+git config --global user.email "email@gmail.com"
 git config --global credential.helper osxkeychain
 
 # SSH Key https://luiscastro.co/2022/01/17/new-m1-mac-setup#ssh-key
-# ssh-keygen -t ed25519 -C "seklecki.m@gmail.com"
+# ssh-keygen -t ed25519 -C "email@gmail.com"
 # eval "$(ssh-agent -s)"
 
 # touch ~/.ssh/config
@@ -80,8 +80,9 @@ brew install gpg
 # git config --global user.signingkey "key id"
 # gpg --armor --export “key id”
 # Copy the PGP Public Key Block and Add to GitHub GPG Keys github.com/settings
-# This sets 
+# Add the following lines to .zshrc https://wiki.archlinux.org/title/GnuPG#Configure_pinentry_to_use_the_correct_TTY
 # export GPG_TTY=$(tty)
+# gpg-connect-agent updatestartuptty /bye >/dev/null
 
 # GitIgnore https://sourabhbajaj.com/mac-setup/Git/gitignore.html
 # https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
