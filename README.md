@@ -1,5 +1,6 @@
 # mbpsetup
-####Setup and installation files for 2021 MacBook Pro with Apple M1 Max
+
+#### Setup and installation files for 2021 MacBook Pro with Apple M1 Max
 
 Links to research and inspiration below:
 
