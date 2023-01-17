@@ -24,7 +24,7 @@ brew upgrade
 # Save Homebrew’s installed location
 BREW_PREFIX=$(brew --prefix)
 
-# Carbon Copy Cloner/SuperDuper/
+# Carbon Copy Cloner
 brew install --cask carbon-copy-cloner
 
 # iTerm2
@@ -46,8 +46,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Git
 brew install git
-git config --global user.email "email@gmail.com"
-git config --global credential.helper osxkeychain
+# git config --global user.email "email@gmail.com"
+# git config --global credential.helper osxkeychain
 
 # SSH Key https://luiscastro.co/2022/01/17/new-m1-mac-setup#ssh-key
 # ssh-keygen -t ed25519 -C "email@gmail.com"
@@ -57,7 +57,7 @@ git config --global credential.helper osxkeychain
 # vim ~/.ssh/config
 
 # Paste the following text in the vim editor
-# #Host *
+# Host *
 #   AddKeysToAgent yes
 #   UseKeychain yes
 #   IdentityFile ~/.ssh/id_ed25519
@@ -80,9 +80,9 @@ brew install gpg
 # git config --global user.signingkey "key id"
 # gpg --armor --export “key id”
 # Copy the PGP Public Key Block and Add to GitHub GPG Keys github.com/settings
-# Add the following lines to .zshrc https://wiki.archlinux.org/title/GnuPG#Configure_pinentry_to_use_the_correct_TTY
-# export GPG_TTY=$(tty)
-# gpg-connect-agent updatestartuptty /bye >/dev/null
+# Run the following two lines to append TTY startup lines to .zshrc https://wiki.archlinux.org/title/GnuPG#Configure_pinentry_to_use_the_correct_TTY
+# echo 'export GPG_TTY=$(tty)' >> ~/.zshrc
+# echo 'gpg-connect-agent updatestartuptty /bye >/dev/null' >> ~/.zshrc
 
 # GitIgnore https://sourabhbajaj.com/mac-setup/Git/gitignore.html
 # https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
@@ -95,7 +95,7 @@ brew install gpg
 brew install docker
 
 # Docker Desktop
-# didn’t work after brew install docker
+# didn’t work after brew install docker, decide if desktop is needed
 # brew install #cask docker
 
 # Vs code
@@ -108,8 +108,17 @@ brew install --cask jetbrains-toolbox
 brew install --cask alfred
 # Alfred Custom Terminal https://github.com/vitorgalvao/custom-alfred-iterm-scripts#copy-the-script
 
-# OpenIn
-brew install --cask openin
+# SetApp
+brew install --cask setapp
+
+# Swish
+# brew install --cask swish #Ended up downloading swish through SetApp
+
+# OpenIn4
+# brew install --cask openin # Would only install 3.0.5, couldn't get it to install 4
+
+# Eul
+brew install --cask eul
 
 # Microsoft Office
 brew install --cask microsoft-office
@@ -120,7 +129,32 @@ brew install --cask dropbox
 # Spotify
 brew install --cask spotify
 
+# Beersmith3
+brew install --cask beersmith
+
+# Arduino
+brew install --cask arduino
+
+# Caffeine
+brew install --cask caffeine
+
+# Chirp
+brew install --cask chirp
+
+# Angry IP Scanner
+brew install --cask angry-ip-scanner
+
+# Balena Etcher
+brew install --cask balenaetcher
+
+# Raspberry Pi Imager
+brew install --cask raspberry-pi-imager
+
+# SD Card Formatter
+brew install --cask sdformatter
+
 # Additional Browsers
+# brew install --cask tor-browser
 # brew install --cask brave
 # brew install --cask firefox
 # brew install --cask homebrew/cask-versions/firefox-nightly
